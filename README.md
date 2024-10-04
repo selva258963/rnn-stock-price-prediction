@@ -33,6 +33,7 @@ Check the error value of the predicted pricing model
 #### Name:SELVAMUTHU KUMARAN V
 #### Register Number:212222040151
 
+``` python 
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -112,6 +113,7 @@ from sklearn.metrics import mean_squared_error
 mse = mean_squared_error(y_test, predicted_stock_price)
 print('Name:SELVAMUTHU KUAMRAN V \nReg no:212222040151')
 print(f"Mean Squared Error: {mse}")
+```
 
 ## Output
 
